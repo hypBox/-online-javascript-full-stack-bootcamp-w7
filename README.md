@@ -1,26 +1,26 @@
 # Welcome to the class!
 
-## Description
+## Run
 1. Clone/Fork this repo
 2. Open a Terminal
-3. Run `cd online-javascript-full-stack-bootcamp-w6` 
+3. Run `cd online-javascript-full-stack-bootcamp-w7` 
 3. Run `npm install` to install dependencies
-4. Run `npm test`
+4. Run `npm start`
 
-Then you should see something like the image below which means you have not implemented anything yet 
-OR 
-your code does not do what it's supposed to
+**Note**: Ctrl/Command + C to stop the server
 
-![fail](/img/fail.png?raw=true "Tests Failing")
+Then visit http://localhost:3000/ and you should see `{ok: true}` response. 
+
+Or
+
+Use Postman to send a Get request to http://localhost:3000/contact-info to get some json data
 
 
 ## Requirements
+1. Open the repo folder with VSCode
+2. Open `src/controllers/index.js` file to add your endpoint
+3. Create a Pull Request to push your changes
 
-2. Open the file 'src/services/user.service.js' file with VSCode
-3. Implement the functions using provided descriptions
-4. Create a Pull Request to push your changes
 
 ## Verify Your Code
-Simply run `npm test` to verify your code and all tests should go green like the image below
-
-![fail](/img/pass.png?raw=true "Tests Passing")
+You can use Postman to send request and check the endpoints
