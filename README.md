@@ -1,4 +1,5 @@
 # Welcome to the class!
+## Very good to see you here!
 
 ## Run
 1. Clone/Fork this repo
